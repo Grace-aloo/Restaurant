@@ -3,7 +3,7 @@ class RestaurantPizzasController < ApplicationController
 
     def create 
         rp = RestaurantPizza.create!(rp_params)
-        render json: rp, status: :created
+        render json: rp.pizza, status: :created
     end
 
 
