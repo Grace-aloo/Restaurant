@@ -26,6 +26,5 @@ class RestaurantsController < ApplicationController
         Restaurant.find(params[:id])
     end
 
-    def restaurant_params 
-    end
+    
 end
