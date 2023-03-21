@@ -5,7 +5,8 @@ This is an API created by Ruby on Rails. It's of a restaurants table that has a 
 It has the following routes
       
        GET /restaurants
-       
+
+
 [
   {
     "id": 1,
